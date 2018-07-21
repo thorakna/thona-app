@@ -1,0 +1,33 @@
+#map{
+  width: 100%;
+  height: 50vw;
+  margin-bottom: 40px;
+  border:0px solid;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.8);
+  background: #FFF url('../lripple.svg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+img[src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png"], a[target="_new"]{
+    display:none !important;
+}
+#backurl{
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 18px;
+  margin-right: 15px;
+  width: 100%;
+}
+#bonay{
+  margin-top: 10px;
+}
+#back-review{
+  width: 100%;
+}

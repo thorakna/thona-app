@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>GEOTRACKER BETA™</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <!-- Color theme for statusbar -->
+      <meta name="theme-color" content="#2196f3">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js'></script>
+      <link href="css/framework7.min.css" rel="stylesheet">
+      <link href="css/appc.css" rel="stylesheet">
+    </head>
+    <body>
+
+<div id="app">
+  <div class="view view-main view-init">
+    <div class="page">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="left"></div>
+          <div class="title">Thona Smartwatch Kontrol</div>
+          <div class="right"></div>
+        </div>
+      </div>
+    <div class="page-content">
+      <div class="block">
+        <div id="map"></div>
+      </div>
+      <div class="list">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="row">
+              <div class="item-media col-50">
+                <img id="back-review" src="wallpaper.webp">
+              </div>
+              <div class="item-inner col-50">
+                <div class="item-title item-label">Saat Wallpaper Url</div>
+                  <div class="item-input-wrap">
+                    <input type="text" id="backurl" placeholder="Url">
+                  </div>
+                  <button id="bonay" class="button button-fill button-round">Değiştir</button>
+              </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title">Gerçek Zamanlı Gps Takibi</div>
+                <div class="item-after">
+                  <label id="gpstoggle" class="toggle toggle-init color-blue">
+                    <input type="checkbox">
+                    <span class="toggle-icon"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Saat Ana Ekran Metni</div>
+                <div class="item-input-wrap">
+                  <textarea id="watchtext"></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!--
+      <div class="container-fluid ort-con">
+        <div id="loading">Sunucuya bağlanılıyor...</div>
+        <div id="cplog">
+          <div class="row">
+            <div id="map"></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-8">
+              <input id="backurl" placeholder="BackUrl?" type="text">
+            </div>
+            <div class="col-xs-4">
+              <button id="bonay" class="onayb">UYGULA</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+-->
+        <script src="js/framework7.min.js"></script>
+        <script src="js/appc.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDijEhcBjaqtJwDL9w2i8SbgjwUVM2J28M&v=3.31"
+    async defer></script>
+    </body>
+</html>
